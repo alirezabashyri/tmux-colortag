@@ -33,6 +33,7 @@ tmux set -g status-style bg=$color0
 tmux set -g window-status-style fg=$color0,bg=$color0,none
 tmux set -g window-status-activity-style bg=$color0,fg=$color4,none
 tmux set -g window-status-bell-style bg=$color0,fg=$color4,none
+tmux set -g status-right ""
 
 RECOVER_BG="#[bg=$color0]"
 LEFTBAR_FORMAT="$(printf "%s" \
